@@ -49,6 +49,7 @@ audio{
     border-radius: 5px;
     transform: translateX(-100%);
     animation: slideIn 1s forwards;
+    height: auto;
 }
 
 @keyframes slideIn {
@@ -425,7 +426,10 @@ display: flex;
 }
 
 @media screen and (max-width: 768px) {
-
+    #hero{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
