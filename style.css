@@ -9,9 +9,7 @@ body{
 }
 
 #hero{
-    min-height: 100dvh;
-    height: auto;
-    /* height: 100dvh; */
+    height: 100dvh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +18,7 @@ body{
 }
 
 #video-background{
-    height: 100%;
+    height: 100dvh;
     position: absolute;
     top: 0;
     left: 0;
