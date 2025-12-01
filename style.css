@@ -473,7 +473,10 @@ padding: 20px;
     #hero{
         display: flex;
         flex-direction: column;
-        padding: 20px;
+    }
+
+    .hero-content{
+        margin: 20px;
     }
 
     .navbar{
