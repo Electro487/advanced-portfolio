@@ -25,3 +25,20 @@ if (emailForm && message && nameDiv) {
     }
     });
 }
+
+
+const menuButton = document.getElementById('menu-button');
+const navBar = document.querySelector('.navbar');
+
+menuButton.addEventListener('click', () => {
+    navBar.classList.toggle('active');
+});
+
+
+const navLinks = document.querySelectorAll('.navbar .nav-links a');
+
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        navBar.classList.remove('active');
+    });
+});
