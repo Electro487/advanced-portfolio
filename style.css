@@ -402,16 +402,6 @@ display: flex;
     margin-bottom: 20px;
 }
 
-.inner-skill{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.inner-skill-last .skill{
-    max-width: 440px;
-    height: 150px;
-}
-
 #projects {
     min-height: 100vh;
     height: auto;
@@ -420,6 +410,10 @@ display: flex;
 #contact {
     min-height: 100vh;
     height: auto;
+}
+
+.projects-container {
+padding: 20px;
 }
 
 
@@ -463,6 +457,11 @@ display: flex;
 
 .projects-container{
     padding: 20px;
+}
+
+.inner-skill{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 }
